@@ -1,0 +1,16 @@
+numbers = [4,3,1,5,2]
+numbers.append(13)
+numbers.insert(0,10)
+numbers.remove(10)
+numbers.pop()
+print(numbers)
+print(numbers.index(3))
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers2 = numbers.copy()
+numbers.append(12)
+print(numbers)
+print(numbers2)
+    
